@@ -1,3 +1,6 @@
+version 0.2.10 (2018-01-31)
+- Fixed SubsetCondition test for testthat
+
 version 0.2.9 (2018-01-31)
 - Fixed size factor replacement in the intermediate Single Cell Experiment object used for scranNormalisation function
 

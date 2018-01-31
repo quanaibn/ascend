@@ -1,16 +1,19 @@
-version 0.3.0 (2018-01-18)
-- Major update to RunCORE function; RunCORE now removes outlier cells identified
-by dynamicTreeCut prior to the generation of candidate clusters. Users can also
-specify sliding windows.
+version 0.2.10 (2018-01-31)
+- Fixed SubsetCondition test for testthat
 
-version 0.2.7 (2018-01-11)
-- Added 'ngenes' argument to RunDiffExpression function, enabling users to run
-analysis on top n genes
+version 0.2.9 (2018-01-31)
+- Fixed size factor replacement in the intermediate Single Cell Experiment object used for scranNormalisation function
+
+version 0.2.8 (2018-01-30)
+- RunDiffExpression was still bugged - addressed condition subsetting
+
+version 0.2.7 (2018-01-25)
+- Fixed bug associated with RunDiffExpression - subsets were selected incorrectly
 
 version 0.2.6 (2018-01-10)
 - Fixed SubsetCondition
 - Fixed RunDiffExpression for non-cluster differential expression function
-- Updated ascend general vignette on how to use SubsetCondition correctlyx
+- Updated ascend general vignette on how to use SubsetCondition correctly
 
 version 0.2.5 (2018-01-09)
 - Changed how RunDiffExpression compares datasets (subsetting of EMSets by user 
